@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightsalmon;
+    background-color: lightskyblue;
 }
 
 .header {
@@ -44,10 +44,38 @@ a {
 }
 
 .hero {
-    height: 800px;
+    height: 700px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/Full-Stack.jpg");
     background-size: cover;
     background-position: center;
+}
+main {
+    margin-right: 20px;
+    font-size: large;
+    
+}
+main h2 {
+    margin-left: 40px;
+    font-size: 36px;
+    width: 200px;
+}
+.About-Me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    float: right;
+    width: 75%;
+}
+
+.About-Me img {
+    max-height: 200px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
