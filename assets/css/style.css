@@ -11,7 +11,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: red;
+    background-color: rgb(70, 70, 146);
     color: #ffffff;
 }
 
@@ -41,3 +41,13 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Full-Stack.jpg");
+    background-size: cover;
+    background-position: center;
+}
