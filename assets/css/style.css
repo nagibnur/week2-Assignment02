@@ -61,7 +61,7 @@ main h2 {
     font-size: 36px;
     width: 200px;
 }
-.About-Me {
+.About-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -72,7 +72,7 @@ main h2 {
     width: 75%;
 }
 
-.About-Me img {
+.About-me img {
     max-height: 200px;
 }
 .float-left {
