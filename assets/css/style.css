@@ -95,7 +95,10 @@ main h2 {
     background-image: url("../images/lap.jpeg");
     background-size: cover;
     background-position: center;
+    
 }
+
+
 .work2, .work3, .work4, .work5 {
     width: 37%;
     height: 150px;
@@ -132,30 +135,37 @@ main h2 {
     background-color: pink;
     text-align: center;
 }
-/*
+
+
 footer {
-    
+    width: 100%;
+    display: inline-block;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(70, 70, 146);
-    color: #ffffff;  
+    color: #ffffff;
 }
-footer h2 {
+
+footer h1 {
     display: inline-block;
     font-size: 48px;
 
 }
-footer section ul {
+footer .Contect-me {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+footer .Contect-me ul {
     list-style-type: none;
 }
-footer section li {
+
+footer .Contect-me ul li {
     display: inline-block;
     margin-left: 25px;
     
-   
-    float: right;
 }
-*/
-
-
-
