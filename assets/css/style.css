@@ -54,7 +54,6 @@ a {
 main {
     margin-right: 100px;
     font-size: large;
-    
 }
 main h2 {
     margin-left: 40px;
@@ -94,6 +93,8 @@ main h2 {
     width: 75%;
     border: 5px solid black;
     background-image: url("../images/lap.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 .work2, .work3, .work4, .work5 {
     width: 37%;
@@ -107,23 +108,31 @@ main h2 {
  }
 .work2 {
     background-image: url("../images/css.png");
+    background-size: cover;
+    background-position: center;
 }
 .work3 {
     margin-right: 13px;
     background-image: url("../images/html.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 .work4 {
     background-image: url("../images/other.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 .work5 {
     margin-right: 13px;
     background-image: url("../images/java.png");
+    background-size: cover;
+    background-position: center;
 }
 .work1 h3, .work2 h3, .work3 h3, .work4 h3, .work5 h3 {
     background-color: pink;
     text-align: center;
 }
-
+/*
 footer {
     
     padding: 20px;
@@ -142,8 +151,11 @@ footer section ul {
 footer section li {
     display: inline-block;
     margin-left: 25px;
+    
+   
+    float: right;
 }
-
+*/
 
 
 
