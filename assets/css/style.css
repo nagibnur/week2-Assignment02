@@ -185,5 +185,8 @@ footer .Contact-me ul li {
 }
 
 @media only screen and (max-width: 768px) {
-  
+ haeder, footer {
+    flex-direction: column;
+ }
+
 }

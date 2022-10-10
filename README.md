@@ -11,6 +11,10 @@ Added pic to sections, created a contact me
 
 # Mock up 
 
+nagib's Portfolio
+
+![alt text](./assignment2.png)
 
 # link 
 
+https://nagibnur.github.io/week2-Assignment02/
