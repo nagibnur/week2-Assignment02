@@ -65,13 +65,13 @@ main h2 {
     color: purple;
 }
 .About-me {
+    margin-left: 20%;
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(103, 187, 215);
     color: black;
-    float: right;
+    
     width: 75%;
     border: 5px solid black;
 }
@@ -86,6 +86,11 @@ main h2 {
 
 .work {
     margin-top: 10px;
+    margin-left: 20%;
+   display: flex;
+   flex-wrap: wrap;
+   width: 75%;
+   justify-content: space-between;
 }
 .work h2 {
     display: inline-block;
@@ -94,13 +99,14 @@ main h2 {
     color: purple;
 }
 .work1 {
+    
     margin-bottom: 20px;
     padding: 50px;
     height: 500px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
-    float: right;
-    width: 75%;
+    
+    width: 100%;
     border: 5px solid black;
     background-image: url("../images/lap.jpeg");
     background-size: cover;
@@ -110,14 +116,15 @@ main h2 {
 
 
 .work2, .work3, .work4, .work5 {
-    width: 37%;
+    width: 49%;
     height: 150px;
     color: #ffffff;
     padding: 50px;
+    
     margin-bottom: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 5px solid black;
-    float: right;
+    
  }
 .work2 {
     background-image: url("../images/css.png");
@@ -141,10 +148,8 @@ main h2 {
     background-size: cover;
     background-position: center;
 }
-.work1 h3, .work2 h3, .work3 h3, .work4 h3, .work5 h3 {
-    background-color: pink;
-    text-align: center;
-}
+
+
 
 
 footer {
@@ -177,5 +182,8 @@ footer .Contact-me ul {
 footer .Contact-me ul li {
     display: inline-block;
     margin-left: 25px;
-    
+}
+
+@media only screen and (max-width: 768px) {
+  
 }
